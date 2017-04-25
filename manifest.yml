@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test-patette-01
+  host: test-patette-01
+  disk_quota: 1024M
+  services:
+  - test-patette-01-cloudantNoSQLDB
